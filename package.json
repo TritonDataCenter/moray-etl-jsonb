@@ -1,0 +1,36 @@
+{
+  "name": "moray-etl-jsonb",
+  "version": "0.0.1",
+  "description": "Reorganzies Moray buckets into JSONB and Power-Schema, after tools applied for tag classification analysis",
+  "main": "moraydump_reorg.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "moraydump_reorg --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joyent/moray-etl-jsonb.git"
+  },
+  "keywords": [
+    "Moray",
+    "Power",
+    "Schema",
+    "JSONB",
+    "PostgreSQL",
+    "json",
+    "to",
+    "sql"
+  ],
+  "author": "Christopher W. V. Hogue",
+  "license": "CDDL",
+  "dependencies": {
+    "dashdash": "~1.6.0",
+    "node-uuid": "~1.4.1",
+    "validator": "~3.16.1",
+    "moment": "~2.7.0",
+    "bunyan": "~0.23.1"
+  }
+}
